@@ -14,6 +14,9 @@ func main() {
 	text, _ := reader.ReadString('\n')
 	text = strings.TrimSpace(text)
 
+	fmt.Println(1 / 2)
+	fmt.Println(1. / 2)
+
 	if isValidPassword(text) {
 		fmt.Println("Ok")
 	} else {
